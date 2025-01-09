@@ -1,1 +1,3 @@
-# Work-with-CMS
+---
+permalink: /progress.html
+---

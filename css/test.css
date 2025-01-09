@@ -165,7 +165,7 @@ body {
   cursor: pointer;
   border: transparent;
   background-color: inherit;
-  background-image: url(../img/Test-work/select-button.svg);
+  background-image: url(../img/select-button.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
