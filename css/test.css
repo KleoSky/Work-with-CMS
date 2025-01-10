@@ -84,6 +84,7 @@ body {
 
 .wysiwyg__wrapper p {
   margin: 0;
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 
@@ -164,12 +165,33 @@ body {
 }
 
 .select__button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
   cursor: pointer;
   border: transparent;
   background-color: inherit;
+  /* background-image: url(../img/select-button.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 50%; */
+}
+
+.select__button::before {
+  content: '';
+  display: block;
+  width: 13px;
+  height: 9px;
   background-image: url(../img/select-button.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  position: absolute;
+  left: 1130px;
+  top: 36px;
+}
+
+.navigation__contacts-link {
+  color: inherit;
+  text-decoration: none;
 }
 
 .navigation__link {
