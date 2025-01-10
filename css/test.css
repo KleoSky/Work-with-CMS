@@ -191,6 +191,23 @@ body {
   padding: 24px 0 56px 0;
 }
 
+.front-image-wrapper img {
+  width: 1110px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back-image-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.back-image-wrapper img {
+  width: 540px;
+  height: 350px;
+  object-fit: cover;
+}
+
 footer {
   background-color: #F4EFE2;
   padding: 81px 165px 88px;
@@ -286,10 +303,14 @@ footer {
 }
 
 .user__avatar {
+  width: 50px;
+  height: 50px;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   border-radius: 50%;
   background-color: #9F7303;
+  object-fit: cover;
+  text-indent: -100vw;
 }
 
 .user__name {
