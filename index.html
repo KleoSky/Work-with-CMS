@@ -88,18 +88,27 @@
             <form class="wpcf7-form" action="" method="post">
               <div class="order-form__column-wrapper">
                 <div class="order-form__column-item-text">
-                  <span class="wpcf7-form-control-wrap your-message">
-                    <textarea class="wpcf7-form-control wpcf7-textarea" name="your-message" placeholder="Расскажите, что вы думаете о проекте" required></textarea>
-                  </span>
+                  <p>
+                    <span class="wpcf7-form-control-wrap">
+                      <textarea class="wpcf7-textarea" cols="40" rows="10"
+                        placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+                    </span>
+                  </p>
                 </div>
                 <div class="order-form__column-item-input">
                   <div class="cf7md-item-input">
                     <label class="visually-hidden" for="name">Введите Ваше имя</label>
-                    <input class="wpcf7-text" name="user-name" id="name" type="text" placeholder="Ваше имя" required>
+                    <p>
+                      <span class="wpcf7-form-control-wrap">
+                        <input class="wpcf7-text" name="user-name" id="name" type="text" placeholder="Ваше имя"
+                          required>
+                      </span>
+                    </p>
                   </div>
                 </div>
                 <div class="order-form__column-item-button">
-                  <button class="wpcf7-submit" type="submit">Отправить</button>
+                  <input class="wpcf7-submit" type="submit" value="Отправить">
+                  <span class="ajax-loader"></span>
                 </div>
                 <div class="order-form__column-item-explanation">
                   <div class="wpcf7-response-output">Отзыв будет добавлен после проверки модератором</div>
