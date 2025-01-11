@@ -16,7 +16,8 @@
     <header class="page__header header">
       <div class="header__wrapper header-wrapper">
         <a class="header-wrapper__link" href="index.html">
-          <img class="header-wrapper__logo" src="./img/header-logo.svg" width="262" height="47" alt="Логотип компании INTERIOR LOUNGE">
+          <img class="header-wrapper__logo" src="./img/header-logo.svg" width="262" height="47"
+            alt="Логотип компании INTERIOR LOUNGE">
         </a>
         <nav class="header-wrapper__navigation navigation">
           <ul class="navigation__list">
@@ -35,7 +36,7 @@
               </ul>
             </li>
             <li class="navigation__item">
-              <a class="navigation__contacts-link" href="" >Контакты</a>
+              <a class="navigation__contacts-link" href="">Контакты</a>
             </li>
             <li class="navigation__item navigation-link">
               <a class="navigation__link" href="#">Оставить отзыв</a>
@@ -82,13 +83,31 @@
     <footer class="page__footer footer">
       <div class="footer__wrapper">
         <h3 class="footer__title">Оставить отзыв </h3>
-        <form class="footer__form form" action="" method="post">
-          <textarea class="form__feedback" placeholder="Расскажите, что вы думаете о проекте"></textarea>
-          <label class="visually-hidden" for="name">Введите Ваше имя</label>
-          <input class="form__input" name="user-name" id="name" type="text" placeholder="Ваше имя">
-          <button class="form__button" type="submit">Отправить</button>
-          <span class="form__explanatory-text">Отзыв будет добавлен после проверки модератором</span>
-        </form>
+        <div class="order-form">
+          <div class="wpcf7">
+            <form class="wpcf7-form" action="" method="post">
+              <div class="order-form__column-wrapper">
+                <div class="order-form__column-item-text">
+                  <span class="wpcf7-form-control-wrap your-message">
+                    <textarea class="wpcf7-form-control wpcf7-textarea" name="your-message" placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+                  </span>
+                </div>
+                <div class="order-form__column-item-input">
+                  <div class="cf7md-item-input">
+                    <label class="visually-hidden" for="name">Введите Ваше имя</label>
+                    <input class="wpcf7-text" name="user-name" id="name" type="text" placeholder="Ваше имя" required>
+                  </div>
+                </div>
+                <div class="order-form__column-item-button">
+                  <button class="wpcf7-submit" type="submit">Отправить</button>
+                </div>
+                <div class="order-form__column-item-explanation">
+                  <div class="wpcf7-response-output">Отзыв будет добавлен после проверки модератором</div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
         <div class="footer__comments comments">
           <section class="comments__user">
             <img class="comments__user-avatar" src="./img/user-one.jpg" width="50" height="50" alt="">
