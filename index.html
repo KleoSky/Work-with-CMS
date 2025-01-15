@@ -20,28 +20,30 @@
             alt="Логотип компании INTERIOR LOUNGE">
         </a>
         <nav class="header-wrapper__navigation navigation">
-          <ul class="navigation__list">
-            <li class="navigation__item select">
-              <button class="select__button" type="button">Наши проекты</button>
-              <ul class="select__list hidden">
-                <li class="select__item">
-                  <a class="select__link" href="#">Tomazzi Hall</a>
-                </li>
-                <li class="select__item">
-                  <a class="select__link" href="#">Lounge Hall</a>
-                </li>
-                <li class="select__item">
-                  <a class="select__link" href="#">Astra Hall</a>
-                </li>
-              </ul>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__contacts-link" href="">Контакты</a>
-            </li>
-            <li class="navigation__item navigation-link">
-              <a class="navigation__link" href="#">Оставить отзыв</a>
-            </li>
-          </ul>
+          <div class="menu-navigation-container">
+            <ul class="menu">
+              <li class="menu-item menu-item-has-children">
+                <a href="">Наши проекты</a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="#">Tomazzi Hall</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Lounge Hall</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Astra Hall</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="">Контакты</a>
+              </li>
+              <li class="menu-item menu-item-different">
+                <a href="#">Оставить отзыв</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -90,8 +92,8 @@
                 <div class="order-form__column-item-text">
                   <p>
                     <span class="wpcf7-form-control-wrap">
-                      <textarea class="wpcf7-textarea"
-                        placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+                      <textarea class="wpcf7-textarea" placeholder="Расскажите, что вы думаете о проекте"
+                        required></textarea>
                     </span>
                   </p>
                 </div>
@@ -140,7 +142,6 @@
       </div>
     </footer>
   </div>
-  <script src="js/test-work.js"></script>
 </body>
 
 </html>
