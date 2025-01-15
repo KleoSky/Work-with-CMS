@@ -256,6 +256,7 @@ footer {
 .order-form__column-wrapper {
   display: grid;
   grid-template-columns: 285px 255px 1fr;
+  grid-template-rows: 1fr auto auto;
   column-gap: 16px;
   row-gap: 24px;
 }
@@ -333,6 +334,11 @@ footer {
   width: 225px;
   font-size: 12px;
   opacity: 0.7;
+}
+
+.order-form p {
+  margin: 0;
+  padding: 0;
 }
 
 .footer__comments {
