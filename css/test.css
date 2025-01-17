@@ -163,12 +163,12 @@ body {
   background-image: url(../img/select-button.svg);
   background-repeat: no-repeat;
   left: 100%;
-  top: 38%;
+  top: 35%;
 }
 
 .menu-navigation-container .menu-item-has-children a {
   display: block;
-  min-width: 157px;
+  min-width: 140px;
   color: inherit;
   text-decoration: none;
   margin-right: 4px;
