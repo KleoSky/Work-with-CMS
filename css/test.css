@@ -308,6 +308,7 @@ body {
   display: block;
   width: 100%;
   min-height: 160px;
+  resize: vertical;
 }
 
 .order-form .wpcf7-text,
